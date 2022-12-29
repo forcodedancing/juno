@@ -49,6 +49,7 @@ If you want to test the code, you can do so by running
 
 ```shell
 $ make test-unit
+$ export JUNO_DATABASE_URL="postgres://postgres:pass@127.0.0.1:5432/postgres?sslmode=disable"
 ```
 
 **Note**: Requires [Docker](https://docker.com).
